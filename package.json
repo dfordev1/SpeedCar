@@ -1,0 +1,20 @@
+{
+  "name": "speedcar",
+  "private": true,
+  "version": "0.0.0",
+  "description": "A zero-cost, decentralized rideshare protocol. PWA + Nostr + WebRTC.",
+  "packageManager": "pnpm@9.12.0",
+  "scripts": {
+    "dev": "pnpm --filter @speedcar/web dev",
+    "build": "pnpm -r --filter @speedcar/web... build",
+    "preview": "pnpm --filter @speedcar/web preview",
+    "typecheck": "pnpm -r typecheck",
+    "lint": "pnpm -r lint"
+  },
+  "devDependencies": {
+    "typescript": "^5.6.3"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
