@@ -1,0 +1,10 @@
+{
+  "extends": "../../tsconfig.base.json",
+  "compilerOptions": {
+    "noEmit": true,
+    "paths": {
+      "@speedcar/shared": ["../shared/src"]
+    }
+  },
+  "include": ["src", "../shared/src"]
+}
